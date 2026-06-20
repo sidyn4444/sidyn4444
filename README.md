@@ -1,16 +1,28 @@
-## Hi there 👋
+## Sidy Ndiaye
 
-<!--
-**sidyn4444/sidyn4444** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+CS @ NC State. Looking for a Software Engineering internship for Summer 2027.
 
-Here are some ideas to get you started:
+### Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **[Intraday Trading App](https://github.com/sidyn4444/Intraday-Trading-App)** —
+  Python + FastAPI full-stack app that screens roughly 10K stocks against 8
+  technical filters, runs 4 automated trading strategies, and executes
+  bracket orders through a broker API. SQLite-backed, cron-scheduled, with
+  end-of-day position close-outs. Strategies: opening range breakout/breakdown
+  and Bollinger Bands long/short.
+
+- **WolfCafe** — Spring Boot + React + MySQL fullstack ordering and inventory system for
+  a campus coffee shop. Built as the primary backend developer on a four-person
+  team for NC State CSC 326. Owned the customer order lifecycle, tax rate
+  subsystem, and admin user management endpoints. JWT auth with role-based
+  authorization across Customer, Staff, and Admin roles. *(Repo coming soon)*
+
+### Stack
+
+Python · Java · Spring Boot · React · FastAPI · SQLite · MySQL · JPA/Hibernate ·
+JWT · pandas · Jinja2
+
+### Reach me
+
+- Email: sidy4444@gmail.com
+- LinkedIn: https://www.linkedin.com/in/sidy-ndiaye-412228284/
