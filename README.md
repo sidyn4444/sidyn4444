@@ -15,7 +15,8 @@ CS @ NC State. Looking for a Software Engineering internship for Summer 2027.
   a campus coffee shop. Built as the primary backend developer on a four-person
   team for NC State CSC 326. Owned the customer order lifecycle, tax rate
   subsystem, and admin user management endpoints. JWT auth with role-based
-  authorization across Customer, Staff, and Admin roles.
+  authorization across Customer, Staff, and Admin roles. *(Course team repository — source available on request.)*
+
 
 ### Stack
 
