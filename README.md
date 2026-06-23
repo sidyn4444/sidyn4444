@@ -4,7 +4,8 @@ CS @ NC State. Looking for a Software Engineering internship for Summer 2027.
 
 ### Projects
 
-- **[Intraday Trading App](https://github.com/sidyn4444/Intraday-Trading-App)** —
+- **[Intraday Trading App](https://github.com/sidyn4444/Intraday-Trading-App)**
+  ([live demo](https://intraday-trading-app.up.railway.app)) —
   Python + FastAPI full-stack app that screens roughly 10K stocks against 8
   technical filters, runs 4 automated trading strategies, and executes
   bracket orders through a broker API. SQLite-backed, cron-scheduled, with
