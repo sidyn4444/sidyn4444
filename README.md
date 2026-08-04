@@ -4,6 +4,15 @@ CS @ NC State. Looking for a Software Engineering internship for Summer 2027.
 
 ### Projects
 
+- **[Distributed Webhook Delivery Service](https://github.com/sidyn4444/webhook-delivery-service)** —
+  Java 21 + Spring Boot 3 service that delivers HTTP webhooks reliably to third-party
+  endpoints. Redis-backed reliable queue with at-least-once delivery, exponential
+  backoff with jitter, a dead-letter queue, and a recovery sweep that reclaims jobs
+  from workers killed mid-delivery. Every payload is HMAC-SHA256 signed, and every
+  subscriber URL is validated against the IP it resolves to (SSRF defense).
+  Kubernetes and AWS EKS deployment in progress.
+
+
 - **[Intraday Trading App](https://github.com/sidyn4444/Intraday-Trading-App)**
   ([live demo](https://intraday-trading-app.up.railway.app)) —
   Python + FastAPI full-stack app that screens roughly 10K stocks against 8
@@ -21,8 +30,11 @@ CS @ NC State. Looking for a Software Engineering internship for Summer 2027.
 
 ### Stack
 
-Python · Java · Spring Boot · React · FastAPI · SQLite · MySQL · JPA/Hibernate ·
-JWT · pandas · Jinja2
+**Languages** — Java · Python · JavaScript · SQL · Lua
+**Backend** — Spring Boot · Spring Security · JPA/Hibernate · FastAPI · JWT · REST APIs
+**Data** — PostgreSQL · Redis · MySQL · SQLite · Flyway · pandas · NumPy
+**Testing & Tooling** — JUnit 5 · Mockito · pytest · Docker · Maven · GitHub Actions · Git
+
 
 ### Reach me
 
