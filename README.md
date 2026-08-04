@@ -30,10 +30,11 @@ CS @ NC State. Looking for a Software Engineering internship for Summer 2027.
 
 ### Stack
 
-**Languages** — Java · Python · JavaScript · SQL · Lua
-**Backend** — Spring Boot · Spring Security · JPA/Hibernate · FastAPI · JWT · REST APIs
-**Data** — PostgreSQL · Redis · MySQL · SQLite · Flyway · pandas · NumPy
-**Testing & Tooling** — JUnit 5 · Mockito · pytest · Docker · Maven · GitHub Actions · Git
+- **Languages** — Java · Python · JavaScript · SQL · Lua
+- **Backend** — Spring Boot · Spring Security · JPA/Hibernate · FastAPI · JWT · REST APIs
+- **Data** — PostgreSQL · Redis · MySQL · SQLite · Flyway · pandas · NumPy
+- **Testing & Tooling** — JUnit 5 · Mockito · pytest · Docker · Maven · GitHub Actions · Git
+
 
 
 ### Reach me
