@@ -16,8 +16,7 @@ what I build holds up when something breaks.
   mid-delivery back into the Redis queue. Deployed and measured on AWS EKS: 178 deliveries/sec sustained at
   4.8 ms p95, zero events were lost when killing workers mid-delivery for testing. 
 
-- **[Intraday Trading App](https://github.com/sidyn4444/Intraday-Trading-App)**
-  ([live demo](https://intraday-trading-app.up.railway.app)) —
+- **[Intraday Trading App](https://github.com/sidyn4444/Intraday-Trading-App)** —
   Python + FastAPI full-stack app that screens roughly 10K stocks against 8
   technical filters, runs 4 automated trading strategies on user selected stocks, and executes
   bracket orders through a broker API to generate profit. SQLite-backed, cron-scheduled, with
