@@ -24,7 +24,7 @@ what I build holds up when something breaks.
   and Bollinger Bands long/short.
 
 - **WolfCafe** — Spring Boot + React + MySQL fullstack ordering and inventory system for
-  a campus coffee shop. Built as the primary backend developer on a four-person
+  a campus coffee shop. Built as the lead backend developer on a four-person
   team for NC State CSC 326. Owned the customer order lifecycle, tax rate
   system, and admin user management endpoints. JWT auth with role-based
   authorization based on Customer, Staff, and Admin roles. *(Course team repository — source available on request.)*
