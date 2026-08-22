@@ -1,17 +1,21 @@
 ## Sidy Ndiaye
 
-CS @ NC State. Looking for a Software Engineering internship for Summer 2027.
+CS + Economics @ NC State (May 2028). Looking for a **Software Engineering internship for Summer 2027**.
+
+Mostly backend — distributed systems, APIs, and the infrastructure they run on. What interests
+me most is what happens when things fail: retries, recovery, and proving a system held up
+instead of assuming it did.
 
 ### Projects
 
 - **[Distributed Webhook Delivery Service](https://github.com/sidyn4444/webhook-delivery-service)** —
-  Java 21 + Spring Boot 3 service that delivers HTTP webhooks reliably to third-party
-  endpoints. Redis-backed reliable queue with at-least-once delivery, exponential
-  backoff with jitter, a dead-letter queue, and a recovery sweep that reclaims jobs
-  from workers killed mid-delivery. Every payload is HMAC-SHA256 signed, and every
-  subscriber URL is validated against the IP it resolves to (SSRF defense).
-  Kubernetes and AWS EKS deployment in progress.
-
+  Java 21 + Spring Boot 3. Sends HTTP callbacks to servers you don't control, without
+  losing events when those servers are slow, down, or broken. Redis-backed queue with
+  at-least-once delivery, backoff retries, a dead-letter queue, HMAC-SHA256 signing,
+  SSRF-checked URLs, and a recovery sweep that reclaims work from workers that die
+  mid-delivery. **Deployed and measured on AWS EKS: 178 deliveries/sec sustained at
+  4.8 ms p95, zero event loss under worker-kill testing** — method and limitations in
+  the repo.
 
 - **[Intraday Trading App](https://github.com/sidyn4444/Intraday-Trading-App)**
   ([live demo](https://intraday-trading-app.up.railway.app)) —
@@ -27,17 +31,14 @@ CS @ NC State. Looking for a Software Engineering internship for Summer 2027.
   subsystem, and admin user management endpoints. JWT auth with role-based
   authorization across Customer, Staff, and Admin roles. *(Course team repository — source available on request.)*
 
-
 ### Stack
 
-- **Languages** — Java · Python · JavaScript · SQL · Lua
+- **Languages** — Java · Python · JavaScript · SQL · Bash
 - **Backend** — Spring Boot · Spring Security · JPA/Hibernate · FastAPI · JWT · REST APIs
 - **Data** — PostgreSQL · Redis · MySQL · SQLite · Flyway · pandas · NumPy
-- **Testing & Tooling** — JUnit 5 · Mockito · pytest · Docker · Maven · GitHub Actions · Git
-
-
+- **Infrastructure & Observability** — AWS (EKS · ElastiCache · RDS · IAM) · Docker · Kubernetes · Helm · Micrometer · Prometheus · Grafana
+- **Testing & Tooling** — JUnit 5 · Mockito · pytest · Maven · GitHub Actions · Git
 
 ### Reach me
 
-- Email: sidy4444@gmail.com
-- LinkedIn: https://www.linkedin.com/in/sidy-ndiaye-412228284/
+sidy4444@gmail.com · [LinkedIn](https://www.linkedin.com/in/sidyn4444/)
