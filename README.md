@@ -41,4 +41,4 @@ instead of assuming it did.
 
 ### Reach me
 
-sidy4444@gmail.com · [LinkedIn](https://www.linkedin.com/in/sidyn4444/)
+sidyn4444@gmail.com · [LinkedIn](https://www.linkedin.com/in/sidyn4444/)
