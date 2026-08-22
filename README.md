@@ -35,6 +35,7 @@ instead of assuming it did.
 
 - **Languages** — Java · Python · JavaScript · SQL · Bash
 - **Backend** — Spring Boot · Spring Security · JPA/Hibernate · FastAPI · JWT · REST APIs
+- **Frontend** — React · HTML · CSS
 - **Data** — PostgreSQL · Redis · MySQL · SQLite · Flyway · pandas · NumPy
 - **Infrastructure & Observability** — AWS (EKS · ElastiCache · RDS · IAM) · Docker · Kubernetes · Helm · Micrometer · Prometheus · Grafana
 - **Testing & Tooling** — JUnit 5 · Mockito · pytest · Maven · GitHub Actions · Git
