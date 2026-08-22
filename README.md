@@ -2,9 +2,9 @@
 
 CS + Economics @ NC State (May 2028). Looking for a **Software Engineering internship for Summer 2027**.
 
-Mostly backend — distributed systems, APIs, and the infrastructure they run on. What interests
-me most is what happens when things fail: retries, recovery, and proving a system held up
-instead of assuming it did.
+Mostly backend — APIs, distributed systems, and the infrastructure they run on. What interests
+me most is designing APIs that solve a real problem for whoever's calling them, and making sure
+what I build holds up when something breaks.
 
 ### Projects
 
