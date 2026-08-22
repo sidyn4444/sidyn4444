@@ -10,11 +10,11 @@ what I build holds up when something breaks.
 
 - **[Distributed Webhook Delivery Service](https://github.com/sidyn4444/webhook-delivery-service)** —
   Java 21 + Spring Boot 3. Sends HTTP callbacks to servers you don't control, without
-  losing events when those servers are slow, down, or broken. Backed with a Redis queue and contains
+  losing events when those servers are slow, down, or broken. Redis-backed queue with
   at-least-once delivery, backoff retries, a dead-letter queue, HMAC-SHA256 signing,
-  SSRF-checked URLs, and a recovery sweep that puts work from workers that die
-  mid-delivery back into the Redis queue. Deployed and measured on AWS EKS: 178 deliveries/sec sustained at
-  4.8 ms p95, zero events were lost when killing workers mid-delivery for testing. 
+  SSRF-checked URLs, and a recovery sweep that puts jobs from dead workers back on the
+  queue. Deployed and measured on AWS EKS: 178 deliveries/sec sustained at 4.8 ms p95,
+  with zero events lost when a worker was killed mid-delivery.
 
 - **[Intraday Trading App](https://github.com/sidyn4444/Intraday-Trading-App)** —
   Python + FastAPI full-stack app that screens roughly 10K stocks against 8
