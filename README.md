@@ -19,8 +19,8 @@ what I build holds up when something breaks.
 - **[Intraday Trading App](https://github.com/sidyn4444/Intraday-Trading-App)**
   ([live demo](https://intraday-trading-app.up.railway.app)) —
   Python + FastAPI full-stack app that screens roughly 10K stocks against 8
-  technical filters, runs 4 automated trading strategies, and executes
-  bracket orders through a broker API. SQLite-backed, cron-scheduled, with
+  technical filters, runs 4 automated trading strategies on user selected stocks, and executes
+  bracket orders through a broker API to generate profit. SQLite-backed, cron-scheduled, with
   position close-outs scheduled at the end of the day. Strategies used: opening range breakout/breakdown
   and Bollinger Bands long/short.
 
