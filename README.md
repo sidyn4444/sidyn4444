@@ -30,7 +30,7 @@ what I build holds up when something breaks.
 ### Stack
 
 - **Languages** — Java · Python · JavaScript · SQL · Bash
-- **Backend** — Spring Boot · Spring Security · JPA/Hibernate · FastAPI · JWT · REST APIs
+- **Backend** — Spring Boot · Spring Security · JPA/Hibernate · FastAPI · REST APIs
 - **Frontend** — React · HTML · CSS
 - **Data** — PostgreSQL · Redis · MySQL · SQLite · Flyway · pandas · NumPy
 - **Infrastructure & Observability** — AWS (EKS · ElastiCache · RDS · IAM) · Docker · Kubernetes · Helm · Micrometer · Prometheus · Grafana
