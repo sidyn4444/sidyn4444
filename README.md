@@ -23,7 +23,12 @@ what I build holds up when something breaks.
   position close-outs scheduled at the end of the day. Strategies used: opening range breakout/breakdown
   and Bollinger Bands long/short.
 
-- **WolfCafe** — Spring Boot + JPA/Hibernate + React + MySQL fullstack ordering and inventory system for a campus coffee shop. Built as the primary backend developer on a four-person team for NC State CSC 326. Owned the customer order lifecycle (PLACED → FULFILLED → PICKED_UP), tax rate system, and admin user management endpoints. JWT auth with role-based authorization for Customer, Staff, and Admin roles, with a React login interface. (Course team repository — source available on request.)
+- **WolfCafe** — Spring Boot + JPA/Hibernate + React + MySQL full-stack ordering and inventory
+  system for a campus coffee shop. Built as the primary backend developer on a four-person team
+  for NC State CSC 326. Owned the customer order lifecycle (PLACED → FULFILLED → PICKED_UP),
+  tax rate system, and admin user management endpoints, plus role-based authorization for
+  Customer, Staff, and Admin roles on top of the team's JWT auth, and the React login interface.
+  *(Course team repository — source available on request.)*
 
 
 
